@@ -1,0 +1,11 @@
+
+{
+  "/api": {
+    "target": "http://mapps.cricbuzz.com/cbzios/match/livematches",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
